@@ -64,8 +64,8 @@ all: main-build
 main-build: Vaja3_ADC_trigger_timer_conversion.elf secondary-outputs
 
 # Tool invocations
-Vaja3_ADC_trigger_timer_conversion.elf Vaja3_ADC_trigger_timer_conversion.map: $(OBJS) $(USER_OBJS) C:\Users\U213.03\STM32CubeIDE\workspace_1.9.0\Vaja3_ADC_trigger_timer_conversion\STM32F401VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Vaja3_ADC_trigger_timer_conversion.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\U213.03\STM32CubeIDE\workspace_1.9.0\Vaja3_ADC_trigger_timer_conversion\STM32F401VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Vaja3_ADC_trigger_timer_conversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Vaja3_ADC_trigger_timer_conversion.elf Vaja3_ADC_trigger_timer_conversion.map: $(OBJS) $(USER_OBJS) D:\Programing\GitHub\Vaja3-ADC-trigger-timer-conversion--STM32F40\Vaja3_ADC_trigger_timer_conversion\STM32F401VCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Vaja3_ADC_trigger_timer_conversion.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Programing\GitHub\Vaja3-ADC-trigger-timer-conversion--STM32F40\Vaja3_ADC_trigger_timer_conversion\STM32F401VCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Vaja3_ADC_trigger_timer_conversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
