@@ -25,3 +25,5 @@
 Pri točki **e** je sampling time 28 saj opcije za 28,5 ni.  
 
 Namesto **TIM 1** moramao izbrati **TIM 2** saj **TIM 1** nima opcije **Timer trigger out event** (Pri External Trigger Conversion Source pod ADC1) medtem, ko **TIM 2** jo ima.
+
+Koda ne dela na STM32F401C-DISCO.Deluje pa na Nucleo razvojni plošči. Video posnetek za Nucle se nahaj pod mapo Nucleo/media
