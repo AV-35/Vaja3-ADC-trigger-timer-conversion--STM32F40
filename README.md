@@ -15,7 +15,9 @@
 ![Pinout](media/Posnetek%20zaslona%202022-10-07%20102403.png)
 
 
+## Vezje
 
+![Vezje](media/1EF66517-5FAC-469C-B5CA-3577250164A0.jpeg)
 
 
 
